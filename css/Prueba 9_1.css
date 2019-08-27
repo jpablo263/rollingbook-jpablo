@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.fondo {
+    margin-top: 10px;
+    margin: auto;    
+    width: 1100px;
+    height: 650px;
+    background-color: rgb(84, 120, 218);
+    position: relative;
+}
+
+.header{
+    top: 10px;
+    position: relative;
+    margin: 20px auto;
+    width: 1000px;
+    height: 80px;
+    background-color: rgb(48, 48, 48);
+}
+
+.imgface{
+    position: absolute;
+    top: 2.5px;
+    left: 50px;
+    width: 75px;
+    height: 75px;
+}
+
+.nombre{
+    position: absolute;
+    top: -10px;
+    left: 650px;
+    width: 300px;
+    height: 300px;
+
+    text-align: right;
+    font: italic 20px verdana, serif;
+    color: rgb(255, 255, 255);
+}
+
+.registro{
+    position: absolute;
+    text-align: center;
+    right: 50px;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(178, 216, 228);
+    border: 5px solid rgb(0, 0, 0);
+}
+    
+.logo2{
+    Margin: 50px auto;
+    width: 60px;
+    height: 60px;
+}
+
+#casillas{
+    text-align: center;
+    font: italic 15px verdana, serif;
+    color: rgb(26, 26, 26);
+}
+
+form{
+    flex-direction: column;
+    display: flex;
+    margin: 0 15px;
+}
+
+.pagppal{
+    margin-left: 50px;
+    font: italic 10px verdana, serif;
+    color: rgb(255, 255, 255);
+}
+
+.imag4{
+    width: 300px;
+    height: 200px;
+}
